@@ -62,7 +62,7 @@ I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.c
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-- [Latest Post](https://dev.to/itszed0/test-post-490g)
+- [Test Post](https://dev.to/itszed0/test-post-490g)
 <!-- BLOG-POST-LIST:END -->
 
 ---
