@@ -29,7 +29,14 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
 -
 ---
+### 🚀 Projects
+- [Dollarhunter](https://github.com/Usmanbalogun044/dollarhunter) - A financial management platform.
+- [Metrohyp](https://github.com/Usmanbalogun044/metrohyp) - API for managing property listings.
 
+### 💻 Technologies
+- **Backend:** Laravel, Node.js, PHP
+- **Frontend:** Tailwind CSS, Vue.js
+- **Databases:** MySQL, PostgreSQL
 ### :hammer_and_wrench: Languages and Tools :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
