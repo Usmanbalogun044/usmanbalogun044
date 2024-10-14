@@ -35,8 +35,8 @@ I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.c
 - **TechCoin** - Reward system for developers (coding time-based rewards).
 
 ### 💻 Technologies
-- **Backend:** Laravel, Node.js, PHP
-- **Frontend:** Tailwind CSS, Vue.js
+- **Backend:** Laravel
+- **Frontend:** Tailwind CSS
 - **Databases:** MySQL, PostgreSQL
   
 ### 🌱 Currently Learning
