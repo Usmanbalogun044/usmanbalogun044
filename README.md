@@ -54,6 +54,7 @@ I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.c
 ---
 
 ### :fire: My Stats :
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=usmanbalogun044&show_icons=true&theme=github)<br>
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=usmanbalogun044&theme=dark)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=usmanbalogun044&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
