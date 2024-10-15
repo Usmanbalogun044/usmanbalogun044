@@ -59,6 +59,19 @@ I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.c
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=usmanbalogun044&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
+ ## Let's Connect
+ <div align="center" style="display:flex;">
+
+ <a href="https://www.linkedin.com/in/balogun-usman-5a5176272/" target=_blank>
+ <img  src="images/linkedin2.png" width="50">&nbsp; 
+ <a href="mailto:usmanbalogun044@gmail.com" target=_blank>
+ <img  src="images/gmailorig.png" width="70">
+ </a>&nbsp; 
+ <a href="https://wa.me/+2347044060" target=_blank>
+ <img  src="images/wats3-removebg-preview.png" width="65">
+  
+ </a>
+ </div>
 ---
 
 ### :writing_hand: Blog Posts :
