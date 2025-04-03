@@ -32,7 +32,7 @@ I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.c
 ### 🚀 Projects
 - [Dollarhunter](https://github.com/Usmanbalogun044/dollarhunter) - Financial management platform.
 - [Metrohyp](https://github.com/Usmanbalogun044/metrohyp) - API for property listings.
-- **TechCoin** - Reward system for developers (coding time-based rewards).
+- [Techcoin](https://techcoin.laravel.cloud)  - Reward system for developers (coding time-based rewards).
 
 ### 💻 Technologies
 - **Backend:** Laravel
