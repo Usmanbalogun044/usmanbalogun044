@@ -21,7 +21,7 @@
 ---
 
 ### :computer: About Me :
-I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">, currently working at Venueri(venueri.com).
+I am **Usman**, a Backend Developer from Nigeria <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">, currently working at [venueri](https://venueri.com).
 
 - 🔧 Working on the **TechCoin** project (reward developers with $tech coin based on coding time).
 - 🔍 Exploring **real-time** applications with **WebSockets**.
