@@ -22,7 +22,7 @@
 
 ### 👨‍💻 About Me
 
-Hey there! I'm **Usman Balogun**, a Backend Developer from Nigeria 🇳🇬, currently engineering solutions at [Venueri](https://venueri.com).
+Hey there! I'm **Usman Balogun**, a Backend Developer & CEH from Nigeria 🇳🇬, currently engineering solutions at [Venueri](https://venueri.com).
 
 - 🔧 Building **TechCoin** — rewarding developers based on coding hours.
 - 🧠 Exploring real-time systems using **WebSockets**.
@@ -39,15 +39,15 @@ Hey there! I'm **Usman Balogun**, a Backend Developer from Nigeria 🇳🇬, cur
 - 🖥️ Platforms I've contributed to:
   - [**Fundmegram.com**](https://fundmegram.com)
   - [**Koka.com**](https://koka.com)
-  - [**TopLike**](https://toplike.app) *(vote-based content reward system)*
+  - [**TopLike**]*(vote-based content reward system)*
 
 ---
 
 ### 🚀 Projects
 
-- 🔥 [**Dollarhunter**](https://github.com/Usmanbalogun044/dollarhunter) – Personal finance & wallet system.
-- 🏠 [**Metrohyp**](https://github.com/Usmanbalogun044/metrohyp) – Real estate API backend.
-- 💸 [**Techcoin**](https://techcoin.laravel.cloud) – Devs get paid based on hours they code.
+- 🔥 [**connectbit**]– Personal finance & wallet system.
+- 🏠 [**Metrohyp**] – Real estate API backend.
+- 💸 [**Techcoin**] – Devs get paid based on hours they code.
 - 👊 [**TopLike**] – Weekly user challenge platform with likes-to-win reward logic.
 
 ---
