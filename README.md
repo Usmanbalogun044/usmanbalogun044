@@ -17,7 +17,6 @@
     <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
   </div>
 </div>
-![Profile last updated](https://img.shields.io/github/last-commit/usmanbalogun044/usmanbalogun044?color=green&label=Last%20updated)
 
 <!-- Languages & Frameworks -->
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
