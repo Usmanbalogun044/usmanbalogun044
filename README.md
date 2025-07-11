@@ -88,7 +88,7 @@ Hey there! I'm **Usman Balogun**, a Backend Developer & CEH from Nigeria ðŸ‡³ðŸ‡
 ![Visitors](https://komarev.com/ghpvc/?username=usmanbalogun044&color=blueviolet)
 
 <!-- Wakatime Stats -->
-[![Usman's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=usmanbalogun044&theme=dark)](https://wakatime.com/@usmanbalogun044)
+[![Usman's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=usmanbalogun044&theme=dark)](https://wakatime.com/@dollarhunter)
 
 ---
 
