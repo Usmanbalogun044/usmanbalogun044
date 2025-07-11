@@ -69,12 +69,26 @@ Hey there! I'm **Usman Balogun**, a Backend Developer & CEH from Nigeria 🇳�
 - Advanced Python for **Cybersecurity & AI scripting**
 
 ---
+<!-- 🔥 GitHub Streak -->
+[![GitHub Streak](https://streak-stats.demolab.com/?user=usmanbalogun044&theme=dark)](https://git.io/streak-stats)
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=usmanbalogun044&show_icons=true&theme=github)<br>
-[![GitHub Streak](https://streak-stats.demolab.com/?user=usmanbalogun044&theme=dark)](https://git.io/streak-stats)
+<!-- 🧠 Stats -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=usmanbalogun044&show_icons=true&theme=github)
+
+<!-- 💻 Top Languages -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=usmanbalogun044&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+<!-- 🏆 Trophies -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=usmanbalogun044&theme=darkhub&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=usmanbalogun044&theme=github-dark)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+![Visitors](https://komarev.com/ghpvc/?username=usmanbalogun044&color=blueviolet)
+
+<!-- Wakatime Stats -->
+[![Usman's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=usmanbalogun044&theme=dark)](https://wakatime.com/@usmanbalogun044)
 
 ---
 
