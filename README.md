@@ -32,15 +32,16 @@ Hi, I’m **Usman Balogun** — Backend Developer & CEH from Nigeria 🇳🇬.
 ### 🛠️ Core Stack
 
 - **Languages:** PHP, Python, JavaScript
-- **Frameworks/Tools:** Laravel, Node.js, Docker, Redis
-- **Databases:** MySQL, PostgreSQL
+- **Frameworks:** Laravel, Node.js
+- **Databases/Cache:** MySQL, PostgreSQL, Redis
+- **DevOps/Tools:** Docker
 - **Security:** Burp Suite, Nmap, Wireshark, SQLMap
 
 ---
 
 ### 🚀 Projects
 
-- **Connectbit** — personal finance and wallet backend.
+- **connectbit** — personal finance and wallet backend.
 - **Metrohyp** — real estate API backend.
 - **Techcoin** — rewards for developers based on coding hours.
 - **TopLike** — challenge platform with likes-to-win logic.
