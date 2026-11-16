@@ -103,12 +103,7 @@ def build_svg(profile: dict, repositories: list[dict], languages: dict[str, int]
 
     ranked_languages = sorted(languages.items(), key=lambda item: item[1], reverse=True)[:8]
     total_bytes = sum(languages.values())
-    top_repos = sorted(
-        originals,
-        key=lambda repo: (int(repo.get("stargazers_count", 0)), int(repo.get("forks_count", 0))),
-        reverse=True,
-    )[:3]
-
+    following = int(profile.get("following", 0))
     now = datetime.now(timezone.utc).astimezone(ZoneInfo("Africa/Lagos"))
     updated = now.strftime("%d %b %Y · %H:%M WAT")
 
@@ -180,28 +175,23 @@ def build_svg(profile: dict, repositories: list[dict], languages: dict[str, int]
         parts.append('<text x="40" y="324" fill="#8b949e" font-size="12">No language data was returned for public repositories.</text>')
 
     parts.extend([
-        '<text x="38" y="408" fill="#f0f6fc" font-size="17" font-weight="700">Top public repositories</text>',
-        f'<text x="962" y="408" fill="#8b949e" font-size="11" text-anchor="end">{fmt(len(originals))} original repositories · {fmt(public_gists)} public gists</text>',
+        '<text x="38" y="408" fill="#f0f6fc" font-size="17" font-weight="700">Account footprint</text>',
+        '<text x="962" y="408" fill="#8b949e" font-size="11" text-anchor="end">Public GitHub profile data</text>',
     ])
 
-    row_y = 438
-    if top_repos:
-        for index, repo in enumerate(top_repos):
-            y = row_y + index * 43
-            name = repo.get("name", "repository")
-            description = repo.get("description") or "No description provided"
-            if len(description) > 62:
-                description = description[:59] + "..."
-            full_name = repo.get("full_name") or f"{USERNAME}/{name}"
-            parts.extend([
-                f'<line x1="38" y1="{y - 17}" x2="962" y2="{y - 17}" stroke="#21262d"/>',
-                f'<a href="https://github.com/{esc(full_name)}"><text x="40" y="{y}" fill="#58a6ff" font-size="13" font-weight="600">{esc(name)}</text></a>',
-                f'<text x="300" y="{y}" fill="#8b949e" font-size="11">{esc(description)}</text>',
-                f'<text x="900" y="{y}" fill="#c9d1d9" font-size="11" text-anchor="end">★ {fmt(int(repo.get("stargazers_count", 0)))}</text>',
-                f'<text x="960" y="{y}" fill="#8b949e" font-size="11" text-anchor="end">⑂ {fmt(int(repo.get("forks_count", 0)))}</text>',
-            ])
-    else:
-        parts.append('<text x="40" y="442" fill="#8b949e" font-size="12">No public repositories were returned.</text>')
+    footprint = [
+        ("ORIGINAL PUBLIC REPOSITORIES", fmt(len(originals)), "Excludes forked repositories"),
+        ("FOLLOWING", fmt(following), "GitHub accounts followed"),
+        ("PUBLIC GISTS", fmt(public_gists), "Public code snippets"),
+    ]
+    for index, (label, value, note) in enumerate(footprint):
+        x = 38 + index * 312
+        parts.extend([
+            f'<rect x="{x}" y="430" width="288" height="105" rx="12" fill="#161b22" stroke="#30363d"/>',
+            f'<text x="{x + 16}" y="458" fill="#8b949e" font-size="10" font-weight="700" letter-spacing=".5">{esc(label)}</text>',
+            f'<text x="{x + 16}" y="500" fill="#f0f6fc" font-size="28" font-weight="700">{esc(value)}</text>',
+            f'<text x="{x + 16}" y="519" fill="#8b949e" font-size="10">{esc(note)}</text>',
+        ])
 
     parts.extend([
         '<line x1="38" y1="574" x2="962" y2="574" stroke="#30363d"/>',
