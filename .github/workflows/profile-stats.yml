@@ -9,31 +9,44 @@ on:
       - main
     paths:
       - README.md
+      - scripts/generate_profile_stats.py
       - .github/workflows/profile-stats.yml
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  generate-metrics:
+  public-profile-stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate profile overview and language breakdown
-        uses: lowlighter/metrics@latest
-        with:
-          user: Usmanbalogun044
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: main
-          committer_message: "chore: refresh GitHub profile metrics [Skip GitHub Action]"
-          filename: profile/metrics.svg
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Africa/Lagos
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+      - name: Check out profile repository
+        uses: actions/checkout@v6
 
+      - name: Generate account-wide public GitHub stats
+        run: python3 scripts/generate_profile_stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit public profile statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/metrics.svg
+          if git diff --cached --quiet; then
+            echo "Profile statistics have not changed."
+            exit 0
+          fi
+          git commit -m "chore: refresh public GitHub profile statistics [skip ci]"
+          git push
+
+  contribution-calendar:
+    needs: public-profile-stats
+    runs-on: ubuntu-latest
+    steps:
       - name: Generate full-year contribution calendar
         uses: lowlighter/metrics@latest
         with:
