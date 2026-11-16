@@ -91,13 +91,7 @@ OWASP Top 10 · Burp Suite · Nmap · Wireshark · SQLMap · Secure Coding · Vu
   <img src="./profile/isocalendar.svg" alt="GitHub full-year contribution calendar" width="100%">
 </p>
 
-## Coding Habits
-
-<p align="center">
-  <img src="./profile/habits.svg" alt="GitHub coding activity and habits charts" width="100%">
-</p>
-
-> These profile graphics are generated and refreshed automatically with GitHub Actions. The first run creates the SVG files in the `profile/` directory.
+> Profile graphics are generated and refreshed automatically with GitHub Actions. The overview includes account, contribution, repository, and language statistics. The contribution calendar shows the full-year activity view.
 
 ---
 
