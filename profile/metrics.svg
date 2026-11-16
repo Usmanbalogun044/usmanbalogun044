@@ -7,7 +7,7 @@
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
 <text x="38" y="48" fill="#f0f6fc" font-size="23" font-weight="700">GitHub Profile Overview</text>
 <text x="38" y="73" fill="#8b949e" font-size="12">Public account statistics · @Usmanbalogun044</text>
-<text x="962" y="48" fill="#8b949e" font-size="11" text-anchor="end">Updated 16 Nov 2026 · 11:41 WAT</text>
+<text x="962" y="48" fill="#8b949e" font-size="11" text-anchor="end">Updated 16 Nov 2026 · 11:43 WAT</text>
 <rect x="38" y="103" width="213" height="112" rx="12" fill="#161b22" stroke="#30363d"/>
 <rect x="38" y="103" width="213" height="3" rx="2" fill="#58a6ff"/>
 <text x="55" y="133" fill="#8b949e" font-size="10" font-weight="700" letter-spacing=".8">PUBLIC REPOSITORIES</text>
@@ -62,23 +62,20 @@
 <circle cx="742" cy="354" r="5" fill="#3572a5"/>
 <text x="755" y="358" fill="#c9d1d9" font-size="12" font-weight="600">Python</text>
 <text x="944" y="358" fill="#8b949e" font-size="11" text-anchor="end">0.4%</text>
-<text x="38" y="408" fill="#f0f6fc" font-size="17" font-weight="700">Top public repositories</text>
-<text x="962" y="408" fill="#8b949e" font-size="11" text-anchor="end">26 original repositories · 0 public gists</text>
-<line x1="38" y1="421" x2="962" y2="421" stroke="#21262d"/>
-<a href="https://github.com/Usmanbalogun044/DarkLogger"><text x="40" y="438" fill="#58a6ff" font-size="13" font-weight="600">DarkLogger</text></a>
-<text x="300" y="438" fill="#8b949e" font-size="11">A powerful Python-based keylogger tool capable of capturing...</text>
-<text x="900" y="438" fill="#c9d1d9" font-size="11" text-anchor="end">★ 16</text>
-<text x="960" y="438" fill="#8b949e" font-size="11" text-anchor="end">⑂ 1</text>
-<line x1="38" y1="464" x2="962" y2="464" stroke="#21262d"/>
-<a href="https://github.com/Usmanbalogun044/usmanbalogun044"><text x="40" y="481" fill="#58a6ff" font-size="13" font-weight="600">usmanbalogun044</text></a>
-<text x="300" y="481" fill="#8b949e" font-size="11">No description provided</text>
-<text x="900" y="481" fill="#c9d1d9" font-size="11" text-anchor="end">★ 4</text>
-<text x="960" y="481" fill="#8b949e" font-size="11" text-anchor="end">⑂ 1</text>
-<line x1="38" y1="507" x2="962" y2="507" stroke="#21262d"/>
-<a href="https://github.com/Usmanbalogun044/botaccount"><text x="40" y="524" fill="#58a6ff" font-size="13" font-weight="600">botaccount</text></a>
-<text x="300" y="524" fill="#8b949e" font-size="11">A Python tool that automates the creation of thousands of u...</text>
-<text x="900" y="524" fill="#c9d1d9" font-size="11" text-anchor="end">★ 2</text>
-<text x="960" y="524" fill="#8b949e" font-size="11" text-anchor="end">⑂ 0</text>
+<text x="38" y="408" fill="#f0f6fc" font-size="17" font-weight="700">Account footprint</text>
+<text x="962" y="408" fill="#8b949e" font-size="11" text-anchor="end">Public GitHub profile data</text>
+<rect x="38" y="430" width="288" height="105" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="54" y="458" fill="#8b949e" font-size="10" font-weight="700" letter-spacing=".5">ORIGINAL PUBLIC REPOSITORIES</text>
+<text x="54" y="500" fill="#f0f6fc" font-size="28" font-weight="700">26</text>
+<text x="54" y="519" fill="#8b949e" font-size="10">Excludes forked repositories</text>
+<rect x="350" y="430" width="288" height="105" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="366" y="458" fill="#8b949e" font-size="10" font-weight="700" letter-spacing=".5">FOLLOWING</text>
+<text x="366" y="500" fill="#f0f6fc" font-size="28" font-weight="700">70</text>
+<text x="366" y="519" fill="#8b949e" font-size="10">GitHub accounts followed</text>
+<rect x="662" y="430" width="288" height="105" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="678" y="458" fill="#8b949e" font-size="10" font-weight="700" letter-spacing=".5">PUBLIC GISTS</text>
+<text x="678" y="500" fill="#f0f6fc" font-size="28" font-weight="700">0</text>
+<text x="678" y="519" fill="#8b949e" font-size="10">Public code snippets</text>
 <line x1="38" y1="574" x2="962" y2="574" stroke="#30363d"/>
 <text x="38" y="593" fill="#8b949e" font-size="10">Public GitHub data only · Private repository activity is not included</text>
 <text x="962" y="593" fill="#8b949e" font-size="10" text-anchor="end">Generated automatically with GitHub Actions</text>
