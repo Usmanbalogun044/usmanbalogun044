@@ -1,8 +1,8 @@
-name: Refresh GitHub profile stats
+name: Update GitHub profile metrics
 
 on:
   schedule:
-    - cron: "23 2 * * *"
+    - cron: "17 2 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -15,58 +15,56 @@ permissions:
   contents: write
 
 jobs:
-  generate-stats:
+  generate-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out profile repository
-        uses: actions/checkout@v6
-
-      - name: Generate GitHub overview card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate profile overview, language breakdown and achievements
+        uses: lowlighter/metrics@latest
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Usmanbalogun044
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: refresh GitHub profile metrics [Skip GitHub Action]"
+          filename: profile/metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Africa/Lagos
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 12
 
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate full-year contribution calendar
+        uses: lowlighter/metrics@latest
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&hide_border=true
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Usmanbalogun044
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: refresh contribution calendar [Skip GitHub Action]"
+          filename: profile/isocalendar.svg
+          template: classic
+          base: ""
+          config_timezone: Africa/Lagos
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
-      - name: Generate WakaTime card
-        uses: stats-organization/github-readme-stats-action@v2
-        continue-on-error: true
+      - name: Generate coding habits and activity charts
+        uses: lowlighter/metrics@latest
         with:
-          card: wakatime
-          options: username=dollarhunter&layout=compact&theme=github_dark&hide_border=true
-          path: profile/wakatime.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate wallet-system repository card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=wallet-system&show_owner=true&theme=github_dark&hide_border=true
-          path: profile/wallet-system.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Laravel Paystack wallet repository card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=laravel-paystack-wallet&show_owner=true&theme=github_dark&hide_border=true
-          path: profile/laravel-paystack-wallet.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit generated cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git diff --cached --quiet && exit 0
-          git commit -m "chore: refresh GitHub profile stats"
-          git push
+          user: Usmanbalogun044
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: refresh coding habits [Skip GitHub Action]"
+          filename: profile/habits.svg
+          template: classic
+          base: ""
+          config_timezone: Africa/Lagos
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
